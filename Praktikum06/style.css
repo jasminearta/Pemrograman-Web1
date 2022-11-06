@@ -1,0 +1,247 @@
+body{
+    background-color: #FFE1E1;
+}
+
+.namaclass{
+    background-color: #FB2576; 
+    text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;  
+    color: #F6F6C9;
+    text-shadow: -0.05em -0.05em #150050;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 26, 152), 0 0 5px palegreen;
+
+    background: url(images/lope.gif);
+    background-size: 150px 150px;
+    
+}
+
+.namaclass p{
+    border: 1px dashed;
+    background-color: #FDFDBD; 
+    background-clip: content-box;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: medium;
+    color: black;
+    text-shadow: none;
+}
+
+.namaclass #soekarno{
+    font-style: oblique;
+}
+
+/* Add a black background color to the top navigation */
+.link{
+    background-color: #CFFF8D;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.link a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.link a:hover{
+    background-color: #A8E890;
+    color: black;
+    text-align: center;
+}
+
+/* Add a color to the active/current link */
+.link a.active{
+    background-color: #A8E890;
+    color: black;
+    text-align: center;
+}
+
+.buyung{
+    width: 18%;
+    margin-left: 400px;
+    border-radius: 8px;
+
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+}
+
+.bulung{
+    width: 19%;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 265px;
+}
+
+#perkutut{
+    font-size: xx-large;
+    color: rgb(0, 0, 206);
+}
+
+.affh{
+    background-color: #8D72E1;
+    text-align: center;
+    color: #F6F6C9;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+    margin: auto;
+    box-shadow: 10px 10px lightblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+ul{
+    list-style-image: url(images/miaw.gif);
+}
+
+.buletin #bibit{
+    font-weight: bold;
+}
+
+.buletin #persiapan{
+    font-weight: bold;
+}
+
+.buletin #jodoh{
+    font-weight: bold;
+}
+
+.buletin #anakan{
+    font-weight: bold;
+}
+
+.satu{
+    width: 20%;
+    margin-left: 29px;
+    border-radius: 8px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+}
+
+.dua{
+    width: 20%;
+    margin-left: 25px;
+    border-radius: 8px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+
+}
+
+.tiga{
+    width: 20%;
+    margin-left: 30px;
+    border-radius: 8px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+
+}
+
+.empat{
+    width: 20%;
+    margin-left: 32px;
+    border-radius: 8px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+}
+
+.jawa{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+
+    background: url(images/iya.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 300px;
+    height: 90px;
+    margin-left: 38%;
+}
+
+.jawa #italik{
+    text-decoration: underline;
+}
+
+.jawa #kamoeh{
+    background-color: red;
+    color: white;
+    font-style: italic;
+}
+
+.nanya{
+    text-align: center;
+}
+
+.nanya #uang{
+    background-color: palevioletred;
+    color: white;
+}
+
+.nanya #cuan{
+    background-color: palevioletred;
+    color: white;
+}
+
+.nanya #watsap{
+    background-color: blueviolet;
+    color: white;
+}
+
+h4{
+    text-align: center;
+}
+
+.toko{
+    text-align: center;
+}
+
+.tokopedia{
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    background-color: white;
+}
+
+.shopee{
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    background-color: white;
+}
+
+.bulapak{
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+    background-color: #150050;
+    color: white;
+}
