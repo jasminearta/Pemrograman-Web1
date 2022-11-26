@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+header, footer{
+    background-color: yellow;
+    height: 15vh;
+    line-height: 15vh;
+}
+
+main{
+    height: 70vh;
+    display: flex;
+    line-height: 70vh;
+}
+
+article{
+    flex: 3;
+    order: 2;
+}
+
+aside{
+    background-color: turquoise;
+    flex: 1;
+    order: 3;
+}
+
+.apaya{
+    background-color: pink;
+    flex: 1;
+    order: 1;
+    width: 50vh;
+    height: 100vh;
+    line-height: 100vh;
+    position: absolute;
+}
