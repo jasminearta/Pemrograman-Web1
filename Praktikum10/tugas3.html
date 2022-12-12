@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message</title>
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="login.html">Nomor 1</a></li>
+                <li><a href="kurs-rupiah.html">Nomor 2</a></li>
+                <li><a href="tugas3.html">Nomor 3</a></li>
+                <li><a href="image-picker.html">Nomor 4</a></li>
+                <li><a href="tugas5.html">Nomor 5</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <button class="tab" id="tab" onclick="bukatab()"><h3>Ayo bilang jangan malu-malu!</h3></button>
+
+    <div class="box" id="box">
+        <button class="tutuptab" id="tutuptab" onclick="tutuptab()"><h3>Chat</h3></button>
+        <div class="wadah_chat" id="wadah_chat">
+            <div class="wrap_text">
+                <p>Hallo jasmine!</p>
+            </div>      
+        </div>
+        <div>
+
+            <input class="input" id="masukan" type="text" value="" size="62">
+            <button onclick="chatbox1()" class="kirim">Send</button>
+        </div>
+    </div><br>
+
+    <script>
+         function apaya(){
+            dekor_1 = document.getElementById("home");
+            dekor_1.style.color = "pink";
+        }
+
+        function gikugendut(){
+            dekor_2 = document.getElementById("home");
+            dekor_2.style.color = "black";
+        }
+
+        function chatbox1(){
+            const wadah = document.getElementById("wadah_chat");
+            const inputan = document.getElementById("masukan").value;
+            if(inputan.trim() != ""){
+                wadah.innerHTML += `<div class="wrap_text"> <p>` + inputan.trim() + `</p> </div>`
+                masukan.value = "";
+                masukan.focus();
+            }
+        }
+
+        function bukatab(){ 
+            const tab = document.getElementById("tab");
+            const box = document.getElementById("box");      
+            box.style.display = "flex";        
+            tab.style.display = "none";
+        }
+
+        function tutuptab(){
+            const tab = document.getElementById("tab");
+            const box = document.getElementById("box");
+            box.style.display = "none";
+            tab.style.display = "flex";
+        }
+    </script>
+
+</body>
+</html>
